@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PuppyBowl Project</title>
+  </head>
+  <nav><button id="homeBtn">HOME</button></nav>
+  <body>
+    <div id = "wrapper">
+      <form id="playerForm">
+        <h1>Submit new player info</h1>
+        <h1>Id: </h1>
+        <input type="text" id="id" name="fname">
+        <h1>Name: </h1>
+        <input id="name">
+        <h1>Breed: </h1>
+        <input id="breed">
+        <h1>Status: </h1>
+        <input id="status">
+        <h1>ImageUrl: </h1>
+        <input id="imageUrl">
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <div id = "listHead">
+      <h2>List of Players</h2>
+    </div>
+    <main> 
+      <div id = "playerBox"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

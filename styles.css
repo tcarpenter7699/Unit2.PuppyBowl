@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+
+main{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+/* NAV CSS */
+
+nav{
+  background-color: blue;
+  height:50px;
+}
+
+#homeBtn{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/* FORM CSS */
+
+h1{
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#id, #name, #breed, #status, #imageUrl{
+  align-self: center;
+}
+
+input{
+  background-color: white;
+}
+
+#playerForm {
+  margin-bottom:60px;
+  margin-top:60px;
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  width:100%;
+}
+
+#submit{
+  justify-self: center;
+  margin-top: 10px;
+  background-color: white;
+  align-self: center;
+}
+
+/* PLAYER LIST CSS */
+
+h2{
+  text-align: center;
+}
+
+#listHead{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+output {
+  display: block;
+  min-height: 300px;
+  padding: 30px;
+  border: 3px solid black;
+  width:100%;
+}
+
+#playerBox{
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+  width:100%;
+  justify-content: space-evenly;
+  padding:40px;
+}
+
+img{
+width:250px;
+height:300px;
+display:flex;
+justify-content:space-evenly;
+}
+
+
+
+
